@@ -1,6 +1,6 @@
 <?php 
-$usuario = "bd_20251";
-$contrasena = "Salud2025#"; 
+$usuario = "root";
+$contrasena = ""; 
 $servidor = "localhost";
 $basededatos = "entrevista2025-1";
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $basededatos);

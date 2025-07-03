@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'evidencias_db';
+$db = 'entrevista2025-1';
 $user = 'root';
 $pass = '';
 
