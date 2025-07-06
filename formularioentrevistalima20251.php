@@ -7,7 +7,7 @@
   <meta property="og:title"         content="Entrevista" />
   <meta property="og:description"   content="Bienvenido a la entrevista del proceso de admisión 2025 - I" />
   <meta property="og:image"         content="" />
-<title>Lima - Admisión 2025 - 1</title>
+<title>Lima - Admisión 2025 - 2</title>
 
 
 <!-- -->
@@ -139,10 +139,26 @@
                     <div class="form-group row col-sm-12 col-md-12">
                         <label class="col-sm-2 col-form-label text-left"  for="validationCustom00">Nombres y Apellidos:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="validationCustom00" minlength="2" name="Entrevistador"  required>
+                            <!-- <input type="text" class="form-control" id="validationCustom00" minlength="2" name="Entrevistador"  required> -->
                              <div class="valid-feedback">
                                 Correcto!
                             </div>
+                            <select class="custom-select" id="form-select" name="Entrevistador" id="validationCustom00" required>
+                                <option value="Seleccione un programa">Seleccione una opción</option>
+                                <option value="María Cabanillas Chavez">María Cabanillas Chavez</option>
+                                <option value="Solange Esteban Añazco">Solange Esteban Añazco</option>
+                                <option value="Celeste Mauricio Esteban">Celeste Mauricio Esteban</option>
+                                <option value="Tabita Lozano Lopez">Tabita Lozano Lopez</option>
+                                <option value="Cynthia Collantes Escate">Cynthia Collantes Escate</option>
+                                <option value="Karen Martinez Ojeda">Karen Martinez Ojeda</option>
+                                <option value="Mabeth Moncada Nuñez">Mabeth Moncada Nuñez</option>
+                                <option value="Delia León Castro">Delia León Castro</option>
+                                <option value="Sofia Dora Vivanco">Sofia Dora Vivanco</option>
+                                <option value="Mirkala Mamani Vilca">Mirkala Mamani Vilca</option>
+
+
+
+                            </select>
                             <div class=" invalid-feedback">
                                 Ingrese el nombre correcto.
                             </div>
@@ -158,26 +174,27 @@
                             <select class="custom-select" id="form-select" name="programa" id="validationCustom00" required>
                                <option value="Seleccione un programa">Seleccione una opción</option>
 
-                                <!-- <option value="Maestría en Nutrición Humana con Mención en Alimentación Basada en Plantas, Semipresencial">Maestría en Nutrición Humana con Mención en Alimentación Basada en Plantas, Semipresencial</option> -->
-                                
-                                <option value="Maestría en Salud Pública con Mención en Salud Global y Promoción de la Salud, A Distancia">Maestría en Salud Pública con Mención en Salud Global y Promoción de la Salud, A Distancia</option>
-                        
-                                <option value="Posgrado de Maestría en Enfermería con Mención en Administración y Gestión, Semipresencial">Posgrado de Maestría en Enfermería con Mención en Administración y Gestión, Semipresencial</option>
+                              
+                                <option value="Posgrado de Maestría en Enfermería con Mención en Administración y Gestión">Posgrado de Maestría en Enfermería con Mención en Administración y Gestión</option>
 
-                                <option value="Posgrado de Maestría en Salud Publica Mención: Gestión de los Servicios de Salud, A Distancia">Posgrado de Maestría en Salud Publica Mención: Gestión de los Servicios de Salud, A Distancia</option>
+                                <option value="Maestría en Nutrición con Mención en Alimentación Basada en Plantas">Maestría en Nutrición con Mención en Alimentación Basada en Plantas</option>
 
                                                                 
-                                <option value="Posgrado de Segunda Especialidad de Enfermería en Emergencias y Desastres, Semipresencial">Posgrado de Segunda Especialidad de Enfermería en Emergencias y Desastres, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad de Enfermería en Gineco Obstetricia, Semipresencial">Posgrado de Segunda Especialidad de Enfermería en Gineco Obstetricia, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad de Enfermería en Oncología, Semipresencial">Posgrado de Segunda Especialidad de Enfermería en Oncología, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad en Enfermería en Administración y Gestión, Semipresencial">Posgrado de Segunda Especialidad en Enfermería en Administración y Gestión, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad en Enfermería en Centro Quirúrgico, Semipresencial">Posgrado de Segunda Especialidad en Enfermería en Centro Quirúrgico, Semipresencial </option>
-                                <option value="Posgrado de Segunda Especialidad en Enfermería en Cuidados Intensivos Neonatales, Semipresencial">Posgrado de Segunda Especialidad en Enfermería en Cuidados Intensivos Neonatales, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad en Enfermería en Cuidados Intensivos Pediátricos, Semipresencial">Posgrado de Segunda Especialidad en Enfermería en Cuidados Intensivos Pediátricos, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad en Enfermería en Cuidados Quirúrgicos, Semipresencial">Posgrado de Segunda Especialidad en Enfermería en Cuidados Quirúrgicos, Semipresencial</option>
-                                <option value="Posgrado de Segunda Especialidad en Enfermería en Neurología y Neurocirugía, Semipresencial">Posgrado de Segunda Especialidad en Enfermería en Neurología y Neurocirugía, Semipresencial</option>
+                                <option value="Segunda Especialidad de Enfermería en Cuidado de la Persona con Diabetes con mención en Educación en Diabetes">Segunda Especialidad de Enfermería en Cuidado de la Persona con Diabetes con mención en Educación en Diabetes</option>
+                                <option value="Segunda Especialidad de Enfermería en Gestión en Inmunizaciones">Segunda Especialidad de Enfermería en Gestión en Inmunizaciones</option>
+                                <option value="Segunda Especialidad en Enfermería en Neurología y Neurocirugía">Segunda Especialidad en Enfermería en Neurología y Neurocirugía</option>
+                                <option value="Segunda Especialidad en Enfermería en Cuidados Quirúrgicos con mención en Recuperación Posanestésica">Segunda Especialidad en Enfermería en Cuidados Quirúrgicos con mención en Recuperación Posanestésica</option>
+                                <option value="Segunda Especialidad en Enfermería en Oncología">Segunda Especialidad en Enfermería en Oncología</option>
+                                <option value="Segunda Especialidad en Enfermería en Cuidados Intensivos Pediátricos">Segunda Especialidad en Enfermería en Cuidados Intensivos Pediátricos</option>
+                                <option value="Segunda Especialidad en Enfermería en Cuidados Intensivos Neonatales">Segunda Especialidad en Enfermería en Cuidados Intensivos Neonatales</option>
+                                <option value="Segunda Especialidad en Enfermería en Cuidados Intensivos">Segunda Especialidad en Enfermería en Cuidados Intensivos </option>
+                                <option value="Segunda Especialidad en Enfermería en Centro Quirúrgico">Segunda Especialidad en Enfermería en Centro Quirúrgico</option>
                                 
-                                <option value="Segunda Especialidad de Enfermería en Cuidado de la Persona con Diabetes con Mención en Educación en Diabetes - Sección Lima, Semipresencial">Segunda Especialidad de Enfermería en Cuidado de la Persona con Diabetes con Mención en Educación en Diabetes - Sección Lima, Semipresencial </option>
+                                <option value="Segunda Especialidad en Enfermería en Gineco Obstetricia">Segunda Especialidad en Enfermería en Gineco Obstetricia</option>
+                                <option value="Segunda Especialidad de Enfermería en Emergencias y Desastres">Segunda Especialidad de Enfermería en Emergencias y Desastres</option>
+                                
+
+                                
                                 
                               
                             </select>
