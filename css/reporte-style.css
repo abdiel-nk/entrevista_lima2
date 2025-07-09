@@ -1,14 +1,62 @@
 .container{
-    margin-bottom: 3%;
+    margin-bottom: 0%;
 }
-h1{
-    text-align: center;
-}
-#myChart{
+.canvas{
     width: 100%;
-    height: 800px;
+    height: 100vh;
+}
+.header2{
+    
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+card-body{
+    background-color: red;
 }
 
+.btn{
+    margin-top:1.5rem;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #003865;
+
+}   
+span{
+    color: #f8a900;
+}
 .card{
-    
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.card .card-body .card-title{
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 0cap;
+}
+
+table{
+    width: 100%;
+}
+thead th{
+    text-align:center;
+}
+
+th,td {
+    font-size: 15px;
+    text-align:center;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+th{
+  text-align:center;
+  background-color: #04AA6D;
+  color: white;
 }
